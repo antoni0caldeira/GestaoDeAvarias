@@ -1,6 +1,6 @@
 ﻿namespace GestaoDeAvarias
 {
-    partial class Form1
+    partial class frmGestaoAvarias
     {
         /// <summary>
         /// Required designer variable.
@@ -159,7 +159,7 @@
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             // 
-            // Form1
+            // frmGestaoAvarias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -173,8 +173,8 @@
             this.Controls.Add(this.txtAvaria);
             this.Controls.Add(this.txtModelo);
             this.Controls.Add(this.dateTimePicker1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmGestaoAvarias";
+            this.Text = "Gestão de Avarias";
             ((System.ComponentModel.ISupportInitialize)(this.dgvAvarias)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

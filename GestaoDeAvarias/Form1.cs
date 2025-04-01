@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GestaoDeAvarias
 {
-    public partial class Form1 : Form
+    public partial class frmGestaoAvarias : Form
     {
-        public Form1()
+        public frmGestaoAvarias()
         {
             InitializeComponent();
         }
