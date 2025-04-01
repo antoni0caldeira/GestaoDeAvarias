@@ -82,6 +82,7 @@
             this.btnInserir.TabIndex = 4;
             this.btnInserir.Text = "Inserir";
             this.btnInserir.UseVisualStyleBackColor = true;
+            this.btnInserir.Click += new System.EventHandler(this.btnInserir_Click);
             // 
             // btnReparado
             // 
@@ -91,6 +92,7 @@
             this.btnReparado.TabIndex = 5;
             this.btnReparado.Text = "Reparado";
             this.btnReparado.UseVisualStyleBackColor = true;
+            this.btnReparado.Click += new System.EventHandler(this.btnReparado_Click);
             // 
             // dgvAvarias
             // 

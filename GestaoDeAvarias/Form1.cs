@@ -16,5 +16,25 @@ namespace GestaoDeAvarias
         {
             InitializeComponent();
         }
+
+        private void btnInserir_Click(object sender, EventArgs e)
+        {
+            InserirDados();
+        }
+
+        private void InserirDados()
+        {
+            MessageBox.Show("Inseir", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnReparado_Click(object sender, EventArgs e)
+        {
+            btnReparar();
+        }
+
+        private void btnReparar()
+        {
+            MessageBox.Show("Reparar", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
